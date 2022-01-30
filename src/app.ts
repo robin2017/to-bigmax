@@ -1,5 +1,6 @@
 // MPA 模式下该文件无效
 import { runApp, IAppConfig } from 'rax-app';
+import   './global.css'
 function orient() {
     //alert('gete');
     if (window.orientation == 0 || window.orientation == 180) {

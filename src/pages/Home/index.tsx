@@ -9,7 +9,7 @@ import styles from './index.module.css';
 
 export default function Home() {
   return (
-    <View className={styles.homeContainer}>
+    <View className={styles.homeContainer} id="main-app">
       <Main/>
     </View>
   );
