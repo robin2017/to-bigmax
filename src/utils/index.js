@@ -28,7 +28,7 @@ function initVars(){
 }
 
 function rasterizePoint(x,y,z){
-
+	
 	var p,d;
 	x-=playerX;
 	y-=playerY;
