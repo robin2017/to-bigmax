@@ -11,8 +11,8 @@ export default   () => {
 
   },[])
   const imageList = [
-    {url:'ddd',content:'文案111'},
-    {url:'ddd',content:'文案2'},
+    { content:'文案111',url:'https://hellorobin.oss-cn-shanghai.aliyuncs.com/baymax/1643524165611.jpeg'},
+    { content:'文案2',url:'https://hellorobin.oss-cn-shanghai.aliyuncs.com/baymax/1643524180189.jpeg'},
     {url:'ddd',content:'333'},
     {url:'ddd',content:'444'},
     {url:'ddd',content:'55'}
@@ -28,7 +28,7 @@ export default   () => {
       >
         {
           imageList.map((image,index)=>{
-            return <SwiperSlide  key={index}><View style={{background: 'red', height: '750rpx' }}>{image.content}</View></SwiperSlide>
+            return <SwiperSlide  key={index}><View style={{backgroundImage: `url(${image.url})`, height: '750rpx' }}>{image.content}</View></SwiperSlide>
           })
         }
  
