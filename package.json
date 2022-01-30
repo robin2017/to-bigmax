@@ -10,7 +10,7 @@
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "prettier": "prettier **/* --write",
     "lint": "npm run eslint && npm run stylelint",
-
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build/web",
     "pub": "git add . && git commit -m \"auto save\" && git push && npm run deploy"
   },

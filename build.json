@@ -3,5 +3,7 @@
     "web"
   ],
   "webpack5": true,
-  "plugins": []
+  "plugins": [
+    "./build.plugin.js"
+  ]
 }
