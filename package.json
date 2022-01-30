@@ -9,9 +9,14 @@
     "eslint": "eslint --ext .js,.jsx,.tsx,.ts ./",
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "prettier": "prettier **/* --write",
-    "lint": "npm run eslint && npm run stylelint"
+    "lint": "npm run eslint && npm run stylelint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build/web",
+    "pub": "git add . && git commit -m \"auto save\" && git push && npm run deploy"
   },
+  "homepage": "https://robin2017.github.io/to-bigmax/",
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "rax": "^1.1.0",
     "rax-document": "^0.1.0",
     "rax-image": "^2.0.0",
