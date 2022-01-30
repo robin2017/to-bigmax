@@ -1,0 +1,25 @@
+.Swiper{
+    width:750rpx;
+    height:100%;
+}
+.SwiperSlide {
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+.ImageWrapper{
+    width:750rpx;
+    height:750rpx;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Image{
+    /* filter:hue-rotate(70deg); */
+    /* filter:contrast(50%); */
+    /* filter:grayscale(90%); */
+    filter:sepia(90%)
+}

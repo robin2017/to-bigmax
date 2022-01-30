@@ -18,3 +18,8 @@ module.exports = ({ onGetWebpackConfig }) => {
 }
 ```
 
+## 3、效果参考
+[星空特效](https://juejin.cn/post/7044091542876717092)
+[烟花特效](https://juejin.cn/post/7052936778574987294)
+[果冻爱心](https://juejin.cn/post/7026691116112019464)
+[图片颜色](https://juejin.cn/post/6844903682010513415)
