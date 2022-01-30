@@ -21,5 +21,6 @@
     /* filter:hue-rotate(70deg); */
     /* filter:contrast(50%); */
     /* filter:grayscale(90%); */
-    filter:sepia(90%)
+    /* filter:sepia(90%); */
+    opacity:0.5
 }
